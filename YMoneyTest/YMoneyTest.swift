@@ -61,22 +61,18 @@ class YMoneyTest: XCTestCase {
         XCTAssertEqual(cash.currency, "P")
     }
 
-//    /**
-//    * KEY Storage Test
-//    */
+    /// KEY Storage Test
+//    func testUnableToCreateNullKeyStorage {
+//        var evilName: String? = "P"
+//        let badToken: String? = nil
 //
-//    - (void)unnableToCreateNullKeyStorage {
+//        KeyStorage()
 //
-//    //    NSMutableString *evilName = [NSMutableString stringWithString:@"Р"];
-//    //    NSString *badtocken = nil;
-//    //
-//    //    XCTAssertThrows([[YANKeyStorage alloc] init]);
-//    //    XCTAssertThrows([[YANKeyStorage alloc] initWithAccessToken:badtocken]);
-//    //    YANKeyStorage *yanKeyStorage = [[YANKeyStorage alloc]
-//    //            initWithAccessToken:evilName];
-//    //    [evilName setString:@"$"];
-//    //    XCTAssertEqualObjects(yanKeyStorage.accessToken, @"Р");
-//    
+//        KeyStorage(accessToken: badToken)
+//
+//        let yanKeyStorage = KeyStorage(accessToken: evilName)
+//        evilName = "$"
+//        XCTAssertEqual(yanKeyStorage.accessToken, "P")
 //    }
 
 }

@@ -9,7 +9,7 @@
 #import "YANBaseUIViewController.h"
 #import "YMAAccountInfoModel.h"
 #import "YANYandexMoneyServer.h"
-#import "YANKeyStorage.h"
+#import "YMoney-Swift.h"
 
 @interface YANBaseUIViewController ()
 
@@ -69,8 +69,8 @@
 # pragma mark - private methods
 
 -(NSString *)loadTokenFromStorage {
-    YANKeyStorage* keyStorage = [[YANKeyStorage alloc] initForTest];
-    NSString* token = [keyStorage loadData:@"Token"];
+    KeyStorage* keyStorage = [KeyStorage forTest];
+    NSString* token = [keyStorage loadDataForKey:@"Token" error:NULL];
     return token;
 }
 

@@ -9,5 +9,6 @@
 #ifndef YMoney_Bridging_Header_h
 #define YMoney_Bridging_Header_h
 
+#import "YMAAccountInfoModel.h"
 
 #endif /* YMoney_Bridging_Header_h */

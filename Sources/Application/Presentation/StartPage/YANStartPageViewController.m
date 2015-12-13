@@ -11,7 +11,6 @@
 #import "YANAuthorizationViewController.h"
 
 #import "YANYandexMoneyServer.h"
-#import "YANKeyStorage.h"
 #import "CustomSpinner.h"
 
 

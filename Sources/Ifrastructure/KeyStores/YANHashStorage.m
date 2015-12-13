@@ -7,13 +7,13 @@
 //
 
 #import "YANHashStorage.h"
-#import "YANKeyStorage.h"
 #import "YMAAccountInfoModel.h"
 #import "YMAHistoryOperationModel.h"
+#import "YMoney-Swift.h"
 
 
 @implementation YANHashStorage {
-    YANKeyStorage * _keyStorage;
+    KeyStorage * _keyStorage;
 }
 
 static NSString *const accountInfoKey = @"accountInfo";
@@ -30,25 +30,25 @@ static NSString *const operationHistoryKey = @"operationHistory";
 
 -(instancetype) initUniqueInstance {
     if(self = [super init]) {
-        _keyStorage = [[YANKeyStorage alloc] init];
+        _keyStorage = [[KeyStorage alloc] init];
     }
     return self;
 }
 
 -(void) saveAccountInfo:(YMAAccountInfoModel*) accountInfo {
-    [_keyStorage saveData:accountInfo withKey:accountInfoKey];
+    [_keyStorage saveData:accountInfo forKey:accountInfoKey];
 }
 
 -(YMAAccountInfoModel *) loadAccountInfo {
-    return [_keyStorage loadData:accountInfoKey];
+    return [_keyStorage loadDataForKey:accountInfoKey error:NULL];
 }
 
 -(void) saveOperationHistory:(NSArray<YMAHistoryOperationModel*> *) operations {
-    [_keyStorage saveData:operations withKey:operationHistoryKey];
+    [_keyStorage saveData:operations forKey:operationHistoryKey];
 }
 
 -(NSArray<YMAHistoryOperationModel*> *) loadOperationHistory {
-    return [_keyStorage loadData:operationHistoryKey];
+    return [_keyStorage loadDataForKey:operationHistoryKey error:NULL];
 }
 
 -(void) cleanStorage {
