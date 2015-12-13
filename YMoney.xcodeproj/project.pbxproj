@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		36EBC0E5AFC696A4CD9BB7CB /* YANCashOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 36EBCAF01DB7118B006F36D8 /* YANCashOperation.m */; };
-		36EBC2C9CD84E5A2FB92E97B /* YANOperationHistory.m in Sources */ = {isa = PBXBuildFile; fileRef = 36EBCD4B3D6330D233FDA25B /* YANOperationHistory.m */; };
 		36EBC2E520AE7E540AAD0202 /* YANStartPageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 36EBC21597D331BA35AC3424 /* YANStartPageViewController.m */; };
 		36EBC2E951E0867145D36DFD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 36EBC657364FF8A1D94BACDD /* Main.storyboard */; };
 		36EBC5067916594F6FB51B84 /* YANYMoneyUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 36EBC9F59BCAED305DC2C7C6 /* YANYMoneyUITests.m */; };
@@ -21,14 +20,12 @@
 		8537D4F61C1C10C500926BC7 /* TestCurrencyCodes.m in Sources */ = {isa = PBXBuildFile; fileRef = 8537D4F51C1C10C500926BC7 /* TestCurrencyCodes.m */; };
 		85903B171C1DC5A900F80DCB /* Cash.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85903B161C1DC5A900F80DCB /* Cash.swift */; };
 		CE011B151BE56B8C00D820A3 /* YANBalance.m in Sources */ = {isa = PBXBuildFile; fileRef = 36EBC896DD3DB61BB53F1D76 /* YANBalance.m */; };
-		CE011B161BE56B9000D820A3 /* YANCashOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 36EBCAF01DB7118B006F36D8 /* YANCashOperation.m */; };
 		CE011B1E1BE56BE100D820A3 /* YMoneyTest.m in Sources */ = {isa = PBXBuildFile; fileRef = CE011B1D1BE56BE100D820A3 /* YMoneyTest.m */; };
 		CE34B4DE1C07A38F00FABC44 /* YANBaseUIViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE34B4DD1C07A38F00FABC44 /* YANBaseUIViewController.m */; };
 		CE34B4EA1C0901A700FABC44 /* CustomSpinner.m in Sources */ = {isa = PBXBuildFile; fileRef = CE34B4E91C0901A700FABC44 /* CustomSpinner.m */; };
 		CE67FC591C1829F400A6A5F3 /* YANHashStorage.m in Sources */ = {isa = PBXBuildFile; fileRef = CE67FC581C1829F400A6A5F3 /* YANHashStorage.m */; };
 		CE67FC5C1C183B6800A6A5F3 /* YMAAccountInfoModel+NsCoding.m in Sources */ = {isa = PBXBuildFile; fileRef = CE67FC5B1C183B6800A6A5F3 /* YMAAccountInfoModel+NsCoding.m */; };
 		CE97936D1C03CEAF00DAC14B /* YANYandexMoneyServer.m in Sources */ = {isa = PBXBuildFile; fileRef = CE97936C1C03CEAF00DAC14B /* YANYandexMoneyServer.m */; };
-		CE97936E1C03CEAF00DAC14B /* YANYandexMoneyServer.m in Sources */ = {isa = PBXBuildFile; fileRef = CE97936C1C03CEAF00DAC14B /* YANYandexMoneyServer.m */; };
 		CEA4746E1BFCE22B0073960E /* NSException+POSRx.m in Sources */ = {isa = PBXBuildFile; fileRef = CEA474411BFCE22B0073960E /* NSException+POSRx.m */; };
 		CEC381E21BE80B0200700DAF /* YMAAccountInfoModel.m in Sources */ = {isa = PBXBuildFile; fileRef = CEC381301BE80B0200700DAF /* YMAAccountInfoModel.m */; };
 		CEC381E31BE80B0200700DAF /* YMAAvatarModel.m in Sources */ = {isa = PBXBuildFile; fileRef = CEC381321BE80B0200700DAF /* YMAAvatarModel.m */; };
@@ -105,13 +102,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		36EBC083411CABA5E7135D84 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 36EBC73C5D66AF6B00CAE276 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 36EBCDB9B3A5AD0AA8AD9F1F;
-			remoteInfo = HomeWork1;
-		};
 		36EBC75EC47CB8499FFA9CD1 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 36EBC73C5D66AF6B00CAE276 /* Project object */;
@@ -147,7 +137,6 @@
 		36EBCC836E1C6A99AB0643A2 /* YANAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YANAppDelegate.h; sourceTree = "<group>"; };
 		36EBCC8E13ED1129E3BBBA13 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		36EBCD4B3D6330D233FDA25B /* YANOperationHistory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YANOperationHistory.m; sourceTree = "<group>"; };
-		36EBCE702E9BD62F1A17CB73 /* YMoney.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YMoney.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		36EBCE7ADB7F9D26CCE27571 /* YANBalance.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YANBalance.h; sourceTree = "<group>"; };
 		8537D4F51C1C10C500926BC7 /* TestCurrencyCodes.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestCurrencyCodes.m; sourceTree = "<group>"; };
 		85903B161C1DC5A900F80DCB /* Cash.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Cash.swift; sourceTree = "<group>"; };
@@ -333,13 +322,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		36EBCEB9364FB6DDDEC4F8FC /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		CE011B181BE56BE100D820A3 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -354,7 +336,6 @@
 			isa = PBXGroup;
 			children = (
 				36EBC7C44C90513F55016D16 /* YMoney.app */,
-				36EBCE702E9BD62F1A17CB73 /* YMoney.xctest */,
 				36EBC00AAA552839EF148BDD /* YMoney.xctest */,
 				CE011B1B1BE56BE100D820A3 /* YMoneyTest.xctest */,
 			);
@@ -965,24 +946,6 @@
 			productReference = 36EBC7C44C90513F55016D16 /* YMoney.app */;
 			productType = "com.apple.product-type.application";
 		};
-		36EBCF25253588D21457D3BE /* YMoneyTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 36EBCF5E73A1AA5B5DEB6722 /* Build configuration list for PBXNativeTarget "YMoneyTests" */;
-			buildPhases = (
-				36EBC5B37F253E92FB5D13BA /* Sources */,
-				36EBCEB9364FB6DDDEC4F8FC /* Frameworks */,
-				36EBC5BD599F75EB940DF7C6 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				36EBCB43DF94AC5B7E68425B /* PBXTargetDependency */,
-			);
-			name = YMoneyTests;
-			productName = HomeWork1Tests;
-			productReference = 36EBCE702E9BD62F1A17CB73 /* YMoney.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 		CE011B1A1BE56BE100D820A3 /* YMoneyTest */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = CE011B221BE56BE100D820A3 /* Build configuration list for PBXNativeTarget "YMoneyTest" */;
@@ -1035,7 +998,6 @@
 			projectRoot = "";
 			targets = (
 				36EBCDB9B3A5AD0AA8AD9F1F /* YMoney */,
-				36EBCF25253588D21457D3BE /* YMoneyTests */,
 				36EBC1988E84CEE77EF1FFB2 /* YMoneyUITests */,
 				CE011B1A1BE56BE100D820A3 /* YMoneyTest */,
 			);
@@ -1044,13 +1006,6 @@
 
 /* Begin PBXResourcesBuildPhase section */
 		36EBC5BCBCA8CE9BEF122C41 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		36EBC5BD599F75EB940DF7C6 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -1084,17 +1039,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				36EBC5067916594F6FB51B84 /* YANYMoneyUITests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		36EBC5B37F253E92FB5D13BA /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				CE011B161BE56B9000D820A3 /* YANCashOperation.m in Sources */,
-				CE011B151BE56B8C00D820A3 /* YANBalance.m in Sources */,
-				CE97936E1C03CEAF00DAC14B /* YANYandexMoneyServer.m in Sources */,
-				36EBC2C9CD84E5A2FB92E97B /* YANOperationHistory.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1204,11 +1148,6 @@
 			isa = PBXTargetDependency;
 			target = 36EBCDB9B3A5AD0AA8AD9F1F /* YMoney */;
 			targetProxy = 36EBC75EC47CB8499FFA9CD1 /* PBXContainerItemProxy */;
-		};
-		36EBCB43DF94AC5B7E68425B /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 36EBCDB9B3A5AD0AA8AD9F1F /* YMoney */;
-			targetProxy = 36EBC083411CABA5E7135D84 /* PBXContainerItemProxy */;
 		};
 		CE011B211BE56BE100D820A3 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -1368,18 +1307,6 @@
 			};
 			name = Release;
 		};
-		36EBCD2DDADBF2E612104B71 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/HomeWork1.app/HomeWork1";
-				INFOPLIST_FILE = HomeWork1Tests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = DmitriyMalykh.HomeWork1Tests;
-				PRODUCT_NAME = YMoney;
-				TEST_HOST = "$(BUNDLE_LOADER)";
-			};
-			name = Debug;
-		};
 		36EBCE8AB7C62331809BADBB /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -1391,18 +1318,6 @@
 				TEST_HOST = "$(BUNDLE_LOADER)";
 			};
 			name = Debug;
-		};
-		36EBCEDE8185DB7DD0FB8015 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/HomeWork1.app/HomeWork1";
-				INFOPLIST_FILE = HomeWork1Tests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = DmitriyMalykh.HomeWork1Tests;
-				PRODUCT_NAME = YMoney;
-				TEST_HOST = "$(BUNDLE_LOADER)";
-			};
-			name = Release;
 		};
 		CE011B231BE56BE100D820A3 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -1456,15 +1371,6 @@
 			buildConfigurations = (
 				36EBCE8AB7C62331809BADBB /* Debug */,
 				36EBC126E0150186483F154E /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		36EBCF5E73A1AA5B5DEB6722 /* Build configuration list for PBXNativeTarget "YMoneyTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				36EBCD2DDADBF2E612104B71 /* Debug */,
-				36EBCEDE8185DB7DD0FB8015 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
