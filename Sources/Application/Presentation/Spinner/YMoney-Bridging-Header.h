@@ -10,5 +10,6 @@
 #define YMoney_Bridging_Header_h
 
 #import "YMAAccountInfoModel.h"
+#import "YMAAPISession.h"
 
 #endif /* YMoney_Bridging_Header_h */

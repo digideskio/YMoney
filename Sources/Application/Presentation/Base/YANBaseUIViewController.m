@@ -70,7 +70,8 @@
 
 -(NSString *)loadTokenFromStorage {
     KeyStorage* keyStorage = [KeyStorage forTest];
-    NSString* token = [keyStorage loadDataForKey:@"Token" error:NULL];
+    NSError *error;
+    NSString* token = [keyStorage loadDataForKey:@"Token" error:&error];
     return token;
 }
 

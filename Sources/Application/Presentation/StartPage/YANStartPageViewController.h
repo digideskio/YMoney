@@ -10,7 +10,7 @@
 #import <UIKit/UIKit.h>
 #import "YANBaseUIViewController.h"
 
-@class YANAuthorizationViewController;
+@class AuthorizationViewController;
 
 @interface YANStartPageViewController : YANBaseUIViewController <YANYandexServerObserver>
 

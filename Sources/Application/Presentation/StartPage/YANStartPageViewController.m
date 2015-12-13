@@ -8,15 +8,14 @@
 
 
 #import "YANStartPageViewController.h"
-#import "YANAuthorizationViewController.h"
-
 #import "YANYandexMoneyServer.h"
 #import "CustomSpinner.h"
+#import "YMoney-Swift.h"
 
 
 @interface YANStartPageViewController ()  <AuthorizationViewControllerDelegate>
 
-- (void)authorizationViewController:(YANAuthorizationViewController *)viewController didChooseValue:(CGFloat)value;
+- (void)authorizationViewController:(AuthorizationViewController *)viewController didChooseValue:(CGFloat)value;
 
 @property (weak, nonatomic) IBOutlet UIButton *enterButton;
 
@@ -85,7 +84,7 @@
 -(void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
     if([segue.identifier isEqualToString:@"shwAuthorizationView"]){
     
-        YANAuthorizationViewController *controller = segue.destinationViewController;
+        AuthorizationViewController *controller = segue.destinationViewController;
         
         controller.delegate = self;
 
@@ -94,7 +93,7 @@
 }
 
 // Implement the delegate methods for AuthorizationViewControllerDelegate
-- (void)authorizationViewController:(YANAuthorizationViewController *)viewController didChooseValue:(CGFloat)value {
+- (void)authorizationViewController:(AuthorizationViewController *)viewController didChooseValue:(CGFloat)value {
     
     [self.enterButton setTitle:@"Попробовать войти еще раз" forState:UIControlStateNormal];
     

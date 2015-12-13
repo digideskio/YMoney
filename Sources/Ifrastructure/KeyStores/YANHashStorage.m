@@ -40,7 +40,8 @@ static NSString *const operationHistoryKey = @"operationHistory";
 }
 
 -(YMAAccountInfoModel *) loadAccountInfo {
-    return [_keyStorage loadDataForKey:accountInfoKey error:NULL];
+    NSError *error;
+    return [_keyStorage loadDataForKey:accountInfoKey error:&error];
 }
 
 -(void) saveOperationHistory:(NSArray<YMAHistoryOperationModel*> *) operations {
@@ -48,7 +49,8 @@ static NSString *const operationHistoryKey = @"operationHistory";
 }
 
 -(NSArray<YMAHistoryOperationModel*> *) loadOperationHistory {
-    return [_keyStorage loadDataForKey:operationHistoryKey error:NULL];
+    NSError *error;
+    return [_keyStorage loadDataForKey:operationHistoryKey error:&error];
 }
 
 -(void) cleanStorage {

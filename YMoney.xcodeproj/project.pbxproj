@@ -21,6 +21,7 @@
 		85903B1E1C1DDBD800F80DCB /* CashOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85903B1D1C1DDBD800F80DCB /* CashOperation.swift */; };
 		85903B201C1DDE4300F80DCB /* OperationHistory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85903B1F1C1DDE4300F80DCB /* OperationHistory.swift */; };
 		85903B221C1DE4CF00F80DCB /* KeyStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85903B211C1DE4CF00F80DCB /* KeyStorage.swift */; };
+		85903B241C1DF22F00F80DCB /* AuthorizationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85903B231C1DF22F00F80DCB /* AuthorizationViewController.swift */; };
 		CE34B4DE1C07A38F00FABC44 /* YANBaseUIViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE34B4DD1C07A38F00FABC44 /* YANBaseUIViewController.m */; };
 		CE34B4EA1C0901A700FABC44 /* CustomSpinner.m in Sources */ = {isa = PBXBuildFile; fileRef = CE34B4E91C0901A700FABC44 /* CustomSpinner.m */; };
 		CE67FC591C1829F400A6A5F3 /* YANHashStorage.m in Sources */ = {isa = PBXBuildFile; fileRef = CE67FC581C1829F400A6A5F3 /* YANHashStorage.m */; };
@@ -69,7 +70,6 @@
 		CEC382091BE80B0200700DAF /* YMAConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = CEC3818A1BE80B0200700DAF /* YMAConnection.m */; };
 		CEC3820A1BE80B0200700DAF /* YMAConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = CEC3818C1BE80B0200700DAF /* YMAConstants.m */; };
 		CEC3820B1BE80B0200700DAF /* YMAHostsProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = CEC3818E1BE80B0200700DAF /* YMAHostsProvider.m */; };
-		CED80BA11BDD032500159505 /* YANAuthorizationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CED80BA01BDD032500159505 /* YANAuthorizationViewController.m */; };
 		CED80BA41BDD05D600159505 /* YANWalletViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CED80BA31BDD05D600159505 /* YANWalletViewController.m */; };
 		CED80BA71BDD07AF00159505 /* YANOperationHistoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CED80BA61BDD07AF00159505 /* YANOperationHistoryViewController.m */; };
 		CEF4BFDF1C106D0100DCA458 /* SwiftSpinner.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF4BFDE1C106D0100DCA458 /* SwiftSpinner.swift */; };
@@ -139,6 +139,7 @@
 		85903B1D1C1DDBD800F80DCB /* CashOperation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CashOperation.swift; sourceTree = "<group>"; };
 		85903B1F1C1DDE4300F80DCB /* OperationHistory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OperationHistory.swift; sourceTree = "<group>"; };
 		85903B211C1DE4CF00F80DCB /* KeyStorage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeyStorage.swift; sourceTree = "<group>"; };
+		85903B231C1DF22F00F80DCB /* AuthorizationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthorizationViewController.swift; sourceTree = "<group>"; };
 		CE011B1B1BE56BE100D820A3 /* YMoneyTest.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YMoneyTest.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE011B1F1BE56BE100D820A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CE34B4D81C079C5C00FABC44 /* YANServerProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YANServerProtocol.h; sourceTree = "<group>"; };
@@ -242,8 +243,6 @@
 		CEC3818C1BE80B0200700DAF /* YMAConstants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YMAConstants.m; sourceTree = "<group>"; };
 		CEC3818D1BE80B0200700DAF /* YMAHostsProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YMAHostsProvider.h; sourceTree = "<group>"; };
 		CEC3818E1BE80B0200700DAF /* YMAHostsProvider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YMAHostsProvider.m; sourceTree = "<group>"; };
-		CED80B9F1BDD032500159505 /* YANAuthorizationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YANAuthorizationViewController.h; sourceTree = "<group>"; };
-		CED80BA01BDD032500159505 /* YANAuthorizationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = YANAuthorizationViewController.m; sourceTree = "<group>"; };
 		CED80BA21BDD05D600159505 /* YANWalletViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YANWalletViewController.h; sourceTree = "<group>"; };
 		CED80BA31BDD05D600159505 /* YANWalletViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YANWalletViewController.m; sourceTree = "<group>"; };
 		CED80BA51BDD07AF00159505 /* YANOperationHistoryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YANOperationHistoryViewController.h; sourceTree = "<group>"; };
@@ -734,8 +733,7 @@
 		CEE7F4E31BE5646800683229 /* AuthorizationPage */ = {
 			isa = PBXGroup;
 			children = (
-				CED80B9F1BDD032500159505 /* YANAuthorizationViewController.h */,
-				CED80BA01BDD032500159505 /* YANAuthorizationViewController.m */,
+				85903B231C1DF22F00F80DCB /* AuthorizationViewController.swift */,
 			);
 			path = AuthorizationPage;
 			sourceTree = "<group>";
@@ -1045,7 +1043,6 @@
 				CEF7C46A1C0C59DA0067EDD8 /* UIAlertView+AFNetworking.m in Sources */,
 				CEC381F61BE80B0200700DAF /* YMAProcessExternalPaymentRequest.m in Sources */,
 				CEC381E51BE80B0200700DAF /* YMAHistoryOperationModel.m in Sources */,
-				CED80BA11BDD032500159505 /* YANAuthorizationViewController.m in Sources */,
 				85903B221C1DE4CF00F80DCB /* KeyStorage.swift in Sources */,
 				CEF7C4681C0C59DA0067EDD8 /* AFNetworkActivityIndicatorManager.m in Sources */,
 				36EBC619A519F9AE23BEA870 /* main.m in Sources */,
@@ -1119,6 +1116,7 @@
 				CEC381F11BE80B0200700DAF /* YMAAccountInfoRequest.m in Sources */,
 				CEC381E71BE80B0200700DAF /* YMAExternalPaymentInfoModel.m in Sources */,
 				CEF7C4111C0C59D90067EDD8 /* AFNetworkReachabilityManager.m in Sources */,
+				85903B241C1DF22F00F80DCB /* AuthorizationViewController.swift in Sources */,
 				CEC381E61BE80B0200700DAF /* YMAOperationDetailsModel.m in Sources */,
 				CEC381F01BE80B0200700DAF /* YMAPaymentResultModel.m in Sources */,
 				CEC382051BE80B0200700DAF /* YMABaseResponse.m in Sources */,
