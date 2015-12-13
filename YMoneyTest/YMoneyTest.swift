@@ -34,17 +34,19 @@ class YMoneyTest: XCTestCase {
 //        Balance(cash: badCash);
 //    }
 
-    func testImpossibleToCreateNullCashOperation() {
-//        NSDate *badDate = nil;
-//        NSString *badDescription = nil;
-//        Cash *cash = nil;
-//        XCTAssertThrows([[YANCashOperation alloc] initOperationWithDate:badDate description:badDescription cash:cash direction:1]);
-//        XCTAssertThrows([YANCashOperation new]);
-    }
+    // Тест не передачу nil не нужен, т.к. это отлавливается компилятором
+
+//    func testImpossibleToCreateNullCashOperation() {
+//        let badDate: NSDate? = nil
+//        let badDescription: String? = nil
+//        let cash: Cash? = nil
+//
+//        CashOperation(operationDate: badDate, operationDescription: badDescription, operationSum: cash, operationDirection: .Out)
+//    }
 
     func testImpossibleToAddNullOperation() {
 //        YANOperationHistory *history = [YANOperationHistory new];
-//        YANCashOperation *badoperation = nil;
+//        CashOperation *badoperation = nil;
 //        XCTAssertThrows([history addOperation:badoperation]);
     }
 

@@ -17,7 +17,7 @@
     return self;
 }
 
-- (void)addOperation:(YANCashOperation *)operation {
+- (void)addOperation:(CashOperation *)operation {
 
     POSRX_CHECK_EX(operation != nil, @"отсутствует платежная операция");
 

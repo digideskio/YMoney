@@ -5,12 +5,12 @@
 
 #import <Foundation/Foundation.h>
 
-@class YANCashOperation;
+@class CashOperation;
 
 
 @interface YANOperationHistory : NSObject
 
 - (instancetype)init;
 
-- (void)addOperation:(YANCashOperation *)operation;
+- (void)addOperation:(CashOperation *)operation;
 @end
