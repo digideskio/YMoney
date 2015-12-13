@@ -714,20 +714,12 @@
 				CEE7F4E31BE5646800683229 /* AuthorizationPage */,
 				CE34B4DB1C07A33D00FABC44 /* Base */,
 				CEF4BFE51C14F0F900DCA458 /* CircleImage */,
-				CEE7F4E21BE5642900683229 /* LaunchPage */,
 				CEE7F4E61BE564CE00683229 /* OperationHistoryPage */,
 				CE34B4E41C0900E800FABC44 /* Spinner */,
 				CEE7F4E41BE564AC00683229 /* StartPage */,
 				CEE7F4E51BE564C200683229 /* WalletPage */,
 			);
 			path = Presentation;
-			sourceTree = "<group>";
-		};
-		CEE7F4E21BE5642900683229 /* LaunchPage */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = LaunchPage;
 			sourceTree = "<group>";
 		};
 		CEE7F4E31BE5646800683229 /* AuthorizationPage */ = {
