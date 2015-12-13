@@ -138,6 +138,7 @@
 		8537D4F51C1C10C500926BC7 /* TestCurrencyCodes.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestCurrencyCodes.m; sourceTree = "<group>"; };
 		85903B161C1DC5A900F80DCB /* Cash.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Cash.swift; sourceTree = "<group>"; };
 		85903B181C1DC80100F80DCB /* Balance.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Balance.swift; sourceTree = "<group>"; };
+		85903B1A1C1DCB6D00F80DCB /* YMoneyTest-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "YMoneyTest-Bridging-Header.h"; sourceTree = "<group>"; };
 		CE011B1B1BE56BE100D820A3 /* YMoneyTest.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YMoneyTest.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE011B1D1BE56BE100D820A3 /* YMoneyTest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YMoneyTest.m; sourceTree = "<group>"; };
 		CE011B1F1BE56BE100D820A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -400,6 +401,7 @@
 				CE011B1F1BE56BE100D820A3 /* Info.plist */,
 				CE011B1D1BE56BE100D820A3 /* YMoneyTest.m */,
 				8537D4F51C1C10C500926BC7 /* TestCurrencyCodes.m */,
+				85903B1A1C1DCB6D00F80DCB /* YMoneyTest-Bridging-Header.h */,
 			);
 			path = YMoneyTest;
 			sourceTree = "<group>";
@@ -967,7 +969,7 @@
 		36EBC73C5D66AF6B00CAE276 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0710;
+				LastSwiftUpdateCheck = 0720;
 				LastUpgradeCheck = 0700;
 				ORGANIZATIONNAME = DMA;
 				TargetAttributes = {
@@ -1320,11 +1322,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
+				HEADER_SEARCH_PATHS = "$(TARGET_TEMP_DIR)/../$(PROJECT_NAME).build/DerivedSources";
 				INFOPLIST_FILE = YMoneyTest/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "-1.YMoneyTest";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "YMoneyTest/YMoneyTest-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YMoney.app/YMoney";
 			};
 			name = Debug;
@@ -1333,11 +1339,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
+				HEADER_SEARCH_PATHS = "$(TARGET_TEMP_DIR)/../$(PROJECT_NAME).build/DerivedSources";
 				INFOPLIST_FILE = YMoneyTest/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "-1.YMoneyTest";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "YMoneyTest/YMoneyTest-Bridging-Header.h";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YMoney.app/YMoney";
 			};
 			name = Release;
