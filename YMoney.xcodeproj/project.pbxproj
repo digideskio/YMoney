@@ -11,7 +11,6 @@
 		36EBC2E951E0867145D36DFD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 36EBC657364FF8A1D94BACDD /* Main.storyboard */; };
 		36EBC5067916594F6FB51B84 /* YANYMoneyUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 36EBC9F59BCAED305DC2C7C6 /* YANYMoneyUITests.m */; };
 		36EBC619A519F9AE23BEA870 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 36EBC46EB9D54C9037E90B9F /* main.m */; };
-		36EBC9C230023E55BFBFB14E /* YANOperationHistory.m in Sources */ = {isa = PBXBuildFile; fileRef = 36EBCD4B3D6330D233FDA25B /* YANOperationHistory.m */; };
 		36EBCCFC2EB1AEDB91E4B3BB /* YANAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 36EBCC604A86151F2B78B580 /* YANAppDelegate.m */; };
 		36EBCEE936089F9998CD6898 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 36EBC94E75F1C9321B0A11AA /* Assets.xcassets */; };
 		36EBCF28D222BDCDAAC7BD11 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 36EBC0EBECF875FF0EC98DFB /* LaunchScreen.storyboard */; };
@@ -20,6 +19,7 @@
 		85903B191C1DC80100F80DCB /* Balance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85903B181C1DC80100F80DCB /* Balance.swift */; };
 		85903B1C1C1DCB6E00F80DCB /* YMoneyTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85903B1B1C1DCB6E00F80DCB /* YMoneyTest.swift */; };
 		85903B1E1C1DDBD800F80DCB /* CashOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85903B1D1C1DDBD800F80DCB /* CashOperation.swift */; };
+		85903B201C1DDE4300F80DCB /* OperationHistory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85903B1F1C1DDE4300F80DCB /* OperationHistory.swift */; };
 		CE34B4DE1C07A38F00FABC44 /* YANBaseUIViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE34B4DD1C07A38F00FABC44 /* YANBaseUIViewController.m */; };
 		CE34B4EA1C0901A700FABC44 /* CustomSpinner.m in Sources */ = {isa = PBXBuildFile; fileRef = CE34B4E91C0901A700FABC44 /* CustomSpinner.m */; };
 		CE67FC591C1829F400A6A5F3 /* YANHashStorage.m in Sources */ = {isa = PBXBuildFile; fileRef = CE67FC581C1829F400A6A5F3 /* YANHashStorage.m */; };
@@ -128,17 +128,16 @@
 		36EBC7C44C90513F55016D16 /* YMoney.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YMoney.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		36EBC94E75F1C9321B0A11AA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		36EBC9F59BCAED305DC2C7C6 /* YANYMoneyUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YANYMoneyUITests.m; sourceTree = "<group>"; };
-		36EBCA9B8150B91B57AEEE23 /* YANOperationHistory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YANOperationHistory.h; sourceTree = "<group>"; };
 		36EBCC604A86151F2B78B580 /* YANAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YANAppDelegate.m; sourceTree = "<group>"; };
 		36EBCC836E1C6A99AB0643A2 /* YANAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YANAppDelegate.h; sourceTree = "<group>"; };
 		36EBCC8E13ED1129E3BBBA13 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		36EBCD4B3D6330D233FDA25B /* YANOperationHistory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YANOperationHistory.m; sourceTree = "<group>"; };
 		8537D4F51C1C10C500926BC7 /* TestCurrencyCodes.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestCurrencyCodes.m; sourceTree = "<group>"; };
 		85903B161C1DC5A900F80DCB /* Cash.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Cash.swift; sourceTree = "<group>"; };
 		85903B181C1DC80100F80DCB /* Balance.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Balance.swift; sourceTree = "<group>"; };
 		85903B1A1C1DCB6D00F80DCB /* YMoneyTest-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "YMoneyTest-Bridging-Header.h"; sourceTree = "<group>"; };
 		85903B1B1C1DCB6E00F80DCB /* YMoneyTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YMoneyTest.swift; sourceTree = "<group>"; };
 		85903B1D1C1DDBD800F80DCB /* CashOperation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CashOperation.swift; sourceTree = "<group>"; };
+		85903B1F1C1DDE4300F80DCB /* OperationHistory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OperationHistory.swift; sourceTree = "<group>"; };
 		CE011B1B1BE56BE100D820A3 /* YMoneyTest.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YMoneyTest.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE011B1F1BE56BE100D820A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CE34B4D81C079C5C00FABC44 /* YANServerProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YANServerProtocol.h; sourceTree = "<group>"; };
@@ -788,8 +787,7 @@
 		CEE7F4E81BE5661B00683229 /* Services */ = {
 			isa = PBXGroup;
 			children = (
-				36EBCA9B8150B91B57AEEE23 /* YANOperationHistory.h */,
-				36EBCD4B3D6330D233FDA25B /* YANOperationHistory.m */,
+				85903B1F1C1DDE4300F80DCB /* OperationHistory.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -1090,6 +1088,7 @@
 				CEF7C46B1C0C59DA0067EDD8 /* UIButton+AFNetworking.m in Sources */,
 				CEC381F91BE80B0200700DAF /* YMAPaymentRequest.m in Sources */,
 				85903B1E1C1DDBD800F80DCB /* CashOperation.swift in Sources */,
+				85903B201C1DDE4300F80DCB /* OperationHistory.swift in Sources */,
 				CEF7C46F1C0C59DA0067EDD8 /* UIWebView+AFNetworking.m in Sources */,
 				CED80BA71BDD07AF00159505 /* YANOperationHistoryViewController.m in Sources */,
 				CEF7C40F1C0C59D90067EDD8 /* AFHTTPRequestOperationManager.m in Sources */,
@@ -1124,7 +1123,6 @@
 				CEF7C4111C0C59D90067EDD8 /* AFNetworkReachabilityManager.m in Sources */,
 				CEC381E61BE80B0200700DAF /* YMAOperationDetailsModel.m in Sources */,
 				CEC381F01BE80B0200700DAF /* YMAPaymentResultModel.m in Sources */,
-				36EBC9C230023E55BFBFB14E /* YANOperationHistory.m in Sources */,
 				CEC382051BE80B0200700DAF /* YMABaseResponse.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

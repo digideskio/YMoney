@@ -44,11 +44,13 @@ class YMoneyTest: XCTestCase {
 //        CashOperation(operationDate: badDate, operationDescription: badDescription, operationSum: cash, operationDirection: .Out)
 //    }
 
-    func testImpossibleToAddNullOperation() {
-//        YANOperationHistory *history = [YANOperationHistory new];
-//        CashOperation *badoperation = nil;
-//        XCTAssertThrows([history addOperation:badoperation]);
-    }
+    // Тест не передачу nil не нужен, т.к. это отлавливается компилятором
+
+//    func testImpossibleToAddNullOperation() {
+//        let history = OperationHistory()
+//        let badOperation: CashOperation? = nil
+//        history.add(badOperation)
+//    }
 
     func testImpossibleToChangeCurrencyAfterInitialization() {
         // Тест не нужен, т.к. value-типы всегда передаются как копия
