@@ -55,8 +55,8 @@
 
 - (void)testImpossibleToCreateNullBalance {
     Cash *badCash = nil;
-    XCTAssertThrows([[YANBalance alloc] initWithCash:badCash]);
-    XCTAssertThrows([[YANBalance alloc] init]);
+    XCTAssertThrows([[Balance alloc] initWithCash:badCash]);
+    XCTAssertThrows([[Balance alloc] init]);
 }
 
 - (void)testImpossibleToCreateNullCashOperation {
