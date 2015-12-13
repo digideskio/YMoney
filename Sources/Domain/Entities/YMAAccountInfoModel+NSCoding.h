@@ -8,6 +8,8 @@
 #import <Foundation/Foundation.h>
 #import "YMAAccountInfoModel.h"
 
+// Нельзя реализовать этот протокол в Swift
+
 @interface YMAAccountInfoModel(NSCoding) <NSCoding>
 
 @end
