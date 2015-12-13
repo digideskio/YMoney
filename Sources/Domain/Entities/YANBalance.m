@@ -4,14 +4,13 @@
 //
 
 #import "YANBalance.h"
-#import "YANCash.h"
 #import "NSException+POSRx.h"
 
 
 @implementation YANBalance {
 
 }
-- (instancetype)initWithCash:(YANCash *)startCash {
+- (instancetype)initWithCash:(Cash *)startCash {
     
     POSRX_CHECK_EX(startCash != nil, @"отсутствует значение баланса");
     

@@ -5,16 +5,16 @@
 
 #import <Foundation/Foundation.h>
 
-@class YANCash;
+@class Cash;
 
 
 @interface YANBalance : NSObject
 
 /// Значение текущего баланса. Досупно только для чтения.
-@property(nonatomic, nonnull, readonly) YANCash *currentBalance;
+@property(nonatomic, nonnull, readonly) Cash *currentBalance;
 
 /// @brief Инициализатор "init" не поддерживатеся.
 /// @param startCash не может быть пустым.
-- (nonnull instancetype)initWithCash:(nonnull YANCash *)startCash;
+- (nonnull instancetype)initWithCash:(nonnull Cash *)startCash;
 
 @end

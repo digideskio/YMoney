@@ -4,7 +4,6 @@
 //
 
 #import "YANCashOperation.h"
-#import "YANCash.h"
 #import "NSException+POSRx.h"
 
 
@@ -14,7 +13,7 @@
 
 - (instancetype)initOperationWithDate:(nonnull NSDate *)operationDate
                           description:(nonnull NSString *)operationDescription
-                                 cash:(nonnull YANCash *)operationSum
+                                 cash:(nonnull Cash *)operationSum
                             direction:(OperationDirection)operationDirection {
     
     POSRX_CHECK_EX(operationDate != nil, @"отсутствует дата операции");

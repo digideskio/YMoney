@@ -12,7 +12,6 @@
 		36EBC2E520AE7E540AAD0202 /* YANStartPageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 36EBC21597D331BA35AC3424 /* YANStartPageViewController.m */; };
 		36EBC2E951E0867145D36DFD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 36EBC657364FF8A1D94BACDD /* Main.storyboard */; };
 		36EBC5067916594F6FB51B84 /* YANYMoneyUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 36EBC9F59BCAED305DC2C7C6 /* YANYMoneyUITests.m */; };
-		36EBC548FAD4F91CCBBF9698 /* YANCash.m in Sources */ = {isa = PBXBuildFile; fileRef = 36EBCCC518EADF7505E3B087 /* YANCash.m */; };
 		36EBC619A519F9AE23BEA870 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 36EBC46EB9D54C9037E90B9F /* main.m */; };
 		36EBC9C230023E55BFBFB14E /* YANOperationHistory.m in Sources */ = {isa = PBXBuildFile; fileRef = 36EBCD4B3D6330D233FDA25B /* YANOperationHistory.m */; };
 		36EBCCFC2EB1AEDB91E4B3BB /* YANAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 36EBCC604A86151F2B78B580 /* YANAppDelegate.m */; };
@@ -20,7 +19,7 @@
 		36EBCF28D222BDCDAAC7BD11 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 36EBC0EBECF875FF0EC98DFB /* LaunchScreen.storyboard */; };
 		36EBCFFCBCEFCB36B6305DBE /* YANBalance.m in Sources */ = {isa = PBXBuildFile; fileRef = 36EBC896DD3DB61BB53F1D76 /* YANBalance.m */; };
 		8537D4F61C1C10C500926BC7 /* TestCurrencyCodes.m in Sources */ = {isa = PBXBuildFile; fileRef = 8537D4F51C1C10C500926BC7 /* TestCurrencyCodes.m */; };
-		CE011B141BE56B8700D820A3 /* YANCash.m in Sources */ = {isa = PBXBuildFile; fileRef = 36EBCCC518EADF7505E3B087 /* YANCash.m */; };
+		85903B171C1DC5A900F80DCB /* Cash.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85903B161C1DC5A900F80DCB /* Cash.swift */; };
 		CE011B151BE56B8C00D820A3 /* YANBalance.m in Sources */ = {isa = PBXBuildFile; fileRef = 36EBC896DD3DB61BB53F1D76 /* YANBalance.m */; };
 		CE011B161BE56B9000D820A3 /* YANCashOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 36EBCAF01DB7118B006F36D8 /* YANCashOperation.m */; };
 		CE011B1E1BE56BE100D820A3 /* YMoneyTest.m in Sources */ = {isa = PBXBuildFile; fileRef = CE011B1D1BE56BE100D820A3 /* YMoneyTest.m */; };
@@ -147,12 +146,11 @@
 		36EBCC604A86151F2B78B580 /* YANAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YANAppDelegate.m; sourceTree = "<group>"; };
 		36EBCC836E1C6A99AB0643A2 /* YANAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YANAppDelegate.h; sourceTree = "<group>"; };
 		36EBCC8E13ED1129E3BBBA13 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		36EBCCC518EADF7505E3B087 /* YANCash.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YANCash.m; sourceTree = "<group>"; };
 		36EBCD4B3D6330D233FDA25B /* YANOperationHistory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YANOperationHistory.m; sourceTree = "<group>"; };
-		36EBCE60636C7417B7747425 /* YANCash.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YANCash.h; sourceTree = "<group>"; };
 		36EBCE702E9BD62F1A17CB73 /* YMoney.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YMoney.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		36EBCE7ADB7F9D26CCE27571 /* YANBalance.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YANBalance.h; sourceTree = "<group>"; };
 		8537D4F51C1C10C500926BC7 /* TestCurrencyCodes.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestCurrencyCodes.m; sourceTree = "<group>"; };
+		85903B161C1DC5A900F80DCB /* Cash.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Cash.swift; sourceTree = "<group>"; };
 		CE011B1B1BE56BE100D820A3 /* YMoneyTest.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YMoneyTest.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE011B1D1BE56BE100D820A3 /* YMoneyTest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YMoneyTest.m; sourceTree = "<group>"; };
 		CE011B1F1BE56BE100D820A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -798,14 +796,13 @@
 			children = (
 				36EBCE7ADB7F9D26CCE27571 /* YANBalance.h */,
 				36EBC896DD3DB61BB53F1D76 /* YANBalance.m */,
-				36EBCE60636C7417B7747425 /* YANCash.h */,
-				36EBCCC518EADF7505E3B087 /* YANCash.m */,
 				36EBCA0F94697E72E920E80A /* YANCashOperation.h */,
 				36EBCAF01DB7118B006F36D8 /* YANCashOperation.m */,
 				CEF4BFEB1C15A31D00DCA458 /* YMAHistoryOperationModel+NSCoding.h */,
 				CEF4BFEC1C15A31D00DCA458 /* YMAHistoryOperationModel+NSCoding.m */,
 				CE67FC5A1C183B6800A6A5F3 /* YMAAccountInfoModel+NSCoding.h */,
 				CE67FC5B1C183B6800A6A5F3 /* YMAAccountInfoModel+NsCoding.m */,
+				85903B161C1DC5A900F80DCB /* Cash.swift */,
 			);
 			path = Entities;
 			sourceTree = "<group>";
@@ -1096,7 +1093,6 @@
 			files = (
 				CE011B161BE56B9000D820A3 /* YANCashOperation.m in Sources */,
 				CE011B151BE56B8C00D820A3 /* YANBalance.m in Sources */,
-				CE011B141BE56B8700D820A3 /* YANCash.m in Sources */,
 				CE97936E1C03CEAF00DAC14B /* YANYandexMoneyServer.m in Sources */,
 				36EBC2C9CD84E5A2FB92E97B /* YANOperationHistory.m in Sources */,
 			);
@@ -1140,13 +1136,13 @@
 				CEC382091BE80B0200700DAF /* YMAConnection.m in Sources */,
 				CEC382001BE80B0200700DAF /* YMAProcessExternalPaymentResponse.m in Sources */,
 				CEC381F51BE80B0200700DAF /* YMAExternalPaymentRequest.m in Sources */,
+				85903B171C1DC5A900F80DCB /* Cash.swift in Sources */,
 				CEC381EA1BE80B0200700DAF /* YMAMoneySourcesModel.m in Sources */,
 				CEC381F71BE80B0200700DAF /* YMAIncomingTransferAcceptRequest.m in Sources */,
 				CE67FC591C1829F400A6A5F3 /* YANHashStorage.m in Sources */,
 				CEC382041BE80B0200700DAF /* YMABaseProcessResponse.m in Sources */,
 				CEF7C4691C0C59DA0067EDD8 /* UIActivityIndicatorView+AFNetworking.m in Sources */,
 				36EBC2E520AE7E540AAD0202 /* YANStartPageViewController.m in Sources */,
-				36EBC548FAD4F91CCBBF9698 /* YANCash.m in Sources */,
 				CEC381E81BE80B0200700DAF /* YMACardsSourceGroupModel.m in Sources */,
 				CE67FC5C1C183B6800A6A5F3 /* YMAAccountInfoModel+NsCoding.m in Sources */,
 				CEC3820B1BE80B0200700DAF /* YMAHostsProvider.m in Sources */,

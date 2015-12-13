@@ -10,7 +10,7 @@ typedef enum Direction {
     OUT
 } OperationDirection;
 
-@class YANCash;
+@class Cash;
 
 @interface YANCashOperation : NSObject
 
@@ -21,7 +21,7 @@ typedef enum Direction {
 @property(nonatomic, nonnull, readonly) NSString *operationDescription;
 
 /// Сумма опреации. Не может быть нулевой.
-@property(nonatomic, nonnull, readonly) YANCash *operationSum;
+@property(nonatomic, nonnull, readonly) Cash *operationSum;
 
 /// Направление операции. Платежи или пополнения.
 @property(nonatomic, readonly) OperationDirection operationDirection;
@@ -30,6 +30,6 @@ typedef enum Direction {
 /// @param аргументы не должны быть нулевыми.
 - (nonnull instancetype)initOperationWithDate:(nonnull NSDate *)operationDate
                                   description:(nonnull NSString *)operationDescription
-                                         cash:(nonnull YANCash *)operationSum
+                                         cash:(nonnull Cash *)operationSum
                                     direction:(OperationDirection )operationDirection;
 @end

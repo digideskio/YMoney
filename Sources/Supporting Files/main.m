@@ -9,17 +9,11 @@
 
 #import <UIKit/UIKit.h>
 #import "YANAppDelegate.h"
-#import "YANCash.h"
-#import "YANBalance.h"
-#import "YANCashOperation.h"
-#import "YANOperationHistory.h"
 
 
 int main(int argc, char *argv[]) {
-
     @autoreleasepool {
         return UIApplicationMain(argc, argv, nil, NSStringFromClass
                 ([YANAppDelegate class]));
     }
-
 }
