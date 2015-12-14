@@ -8,7 +8,6 @@
 
 #import "YANBaseUIViewController.h"
 #import "YMAAccountInfoModel.h"
-#import "YANYandexMoneyServer.h"
 #import "YMoney-Swift.h"
 
 @interface YANBaseUIViewController ()
@@ -29,7 +28,7 @@
 -(void)viewWillAppear:(BOOL)animated {
     [super viewWillAppear:animated];
     NSString* token = [self loadTokenFromStorage];
-    self.yandexMoneyServer = [[YANYandexMoneyServer alloc] initWithAccessToken:token];
+    self.yandexMoneyServer = [[YandexMoneyServer alloc] initWithAccessToken:token];
     [self.yandexMoneyServer subscribeOnEvents:self];
 }
 
@@ -54,7 +53,7 @@
     
 }
 
--(void) onReceiveToken:(NSString *)accessToken {
+-(void) onReceiveAccessToken:(NSString *)accessToken {
     
 }
 

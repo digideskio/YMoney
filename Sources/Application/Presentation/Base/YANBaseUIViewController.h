@@ -7,31 +7,14 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "YMoney-Swift.h"
 
 @class YMAAccountInfoModel;
-@class YANYandexMoneyServer;
+@class YandexMoneyServer;
 
-@protocol YANYandexServerObserver <NSObject>
+@interface YANBaseUIViewController : UIViewController <YandexServerObserver>
 
--(void) onInternetConnectionLost;
-
--(void) onReceiveAccountInfo:(YMAAccountInfoModel *)accountInfo;
-
--(void) onReceiveLastOperations:(NSArray *)operations;
-
--(void) onReceiveNextOperations:(NSArray *)operations;
-
--(void) onNeedToRefreshToken;
-
--(void) onReceiveToken:(NSString *)accessToken;
-
--(void) onTokenAccepted;
-
-@end
-
-@interface YANBaseUIViewController : UIViewController <YANYandexServerObserver>
-
-@property (strong, nonatomic) YANYandexMoneyServer* yandexMoneyServer;
+@property (strong, nonatomic) YandexMoneyServer* yandexMoneyServer;
 
 @end
 

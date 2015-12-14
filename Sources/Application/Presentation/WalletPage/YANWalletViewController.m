@@ -10,9 +10,9 @@
 
 #import "YANHashStorage.h"
 #import "YMAAccountInfoModel.h"
-#import "YANYandexMoneyServer.h"
 #import "UIKit+AFNetworking.h"
 #import "YANUICircleImageView.h"
+#import "YMoney-Swift.h"
 
 @interface YANWalletViewController ()
 

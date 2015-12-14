@@ -15,6 +15,7 @@
 		36EBCEE936089F9998CD6898 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 36EBC94E75F1C9321B0A11AA /* Assets.xcassets */; };
 		36EBCF28D222BDCDAAC7BD11 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 36EBC0EBECF875FF0EC98DFB /* LaunchScreen.storyboard */; };
 		8537D4F61C1C10C500926BC7 /* TestCurrencyCodes.m in Sources */ = {isa = PBXBuildFile; fileRef = 8537D4F51C1C10C500926BC7 /* TestCurrencyCodes.m */; };
+		855844F21C1F4BDB000A581C /* YandexMoneyServer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 855844F11C1F4BDB000A581C /* YandexMoneyServer.swift */; };
 		85903B171C1DC5A900F80DCB /* Cash.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85903B161C1DC5A900F80DCB /* Cash.swift */; };
 		85903B191C1DC80100F80DCB /* Balance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85903B181C1DC80100F80DCB /* Balance.swift */; };
 		85903B1C1C1DCB6E00F80DCB /* YMoneyTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85903B1B1C1DCB6E00F80DCB /* YMoneyTest.swift */; };
@@ -26,7 +27,6 @@
 		CE34B4EA1C0901A700FABC44 /* CustomSpinner.m in Sources */ = {isa = PBXBuildFile; fileRef = CE34B4E91C0901A700FABC44 /* CustomSpinner.m */; };
 		CE67FC591C1829F400A6A5F3 /* YANHashStorage.m in Sources */ = {isa = PBXBuildFile; fileRef = CE67FC581C1829F400A6A5F3 /* YANHashStorage.m */; };
 		CE67FC5C1C183B6800A6A5F3 /* YMAAccountInfoModel+NsCoding.m in Sources */ = {isa = PBXBuildFile; fileRef = CE67FC5B1C183B6800A6A5F3 /* YMAAccountInfoModel+NsCoding.m */; };
-		CE97936D1C03CEAF00DAC14B /* YANYandexMoneyServer.m in Sources */ = {isa = PBXBuildFile; fileRef = CE97936C1C03CEAF00DAC14B /* YANYandexMoneyServer.m */; };
 		CEA4746E1BFCE22B0073960E /* NSException+POSRx.m in Sources */ = {isa = PBXBuildFile; fileRef = CEA474411BFCE22B0073960E /* NSException+POSRx.m */; };
 		CEC381E21BE80B0200700DAF /* YMAAccountInfoModel.m in Sources */ = {isa = PBXBuildFile; fileRef = CEC381301BE80B0200700DAF /* YMAAccountInfoModel.m */; };
 		CEC381E31BE80B0200700DAF /* YMAAvatarModel.m in Sources */ = {isa = PBXBuildFile; fileRef = CEC381321BE80B0200700DAF /* YMAAvatarModel.m */; };
@@ -132,6 +132,7 @@
 		36EBCC836E1C6A99AB0643A2 /* YANAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YANAppDelegate.h; sourceTree = "<group>"; };
 		36EBCC8E13ED1129E3BBBA13 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8537D4F51C1C10C500926BC7 /* TestCurrencyCodes.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestCurrencyCodes.m; sourceTree = "<group>"; };
+		855844F11C1F4BDB000A581C /* YandexMoneyServer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YandexMoneyServer.swift; sourceTree = "<group>"; };
 		85903B161C1DC5A900F80DCB /* Cash.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Cash.swift; sourceTree = "<group>"; };
 		85903B181C1DC80100F80DCB /* Balance.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Balance.swift; sourceTree = "<group>"; };
 		85903B1A1C1DCB6D00F80DCB /* YMoneyTest-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "YMoneyTest-Bridging-Header.h"; sourceTree = "<group>"; };
@@ -142,7 +143,6 @@
 		85903B231C1DF22F00F80DCB /* AuthorizationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthorizationViewController.swift; sourceTree = "<group>"; };
 		CE011B1B1BE56BE100D820A3 /* YMoneyTest.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YMoneyTest.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE011B1F1BE56BE100D820A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		CE34B4D81C079C5C00FABC44 /* YANServerProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YANServerProtocol.h; sourceTree = "<group>"; };
 		CE34B4DC1C07A38F00FABC44 /* YANBaseUIViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YANBaseUIViewController.h; sourceTree = "<group>"; };
 		CE34B4DD1C07A38F00FABC44 /* YANBaseUIViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YANBaseUIViewController.m; sourceTree = "<group>"; };
 		CE34B4E81C0901A700FABC44 /* CustomSpinner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomSpinner.h; sourceTree = "<group>"; };
@@ -151,8 +151,6 @@
 		CE67FC581C1829F400A6A5F3 /* YANHashStorage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YANHashStorage.m; sourceTree = "<group>"; };
 		CE67FC5A1C183B6800A6A5F3 /* YMAAccountInfoModel+NSCoding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "YMAAccountInfoModel+NSCoding.h"; sourceTree = "<group>"; };
 		CE67FC5B1C183B6800A6A5F3 /* YMAAccountInfoModel+NsCoding.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "YMAAccountInfoModel+NsCoding.m"; sourceTree = "<group>"; };
-		CE97936B1C03CEAF00DAC14B /* YANYandexMoneyServer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YANYandexMoneyServer.h; sourceTree = "<group>"; };
-		CE97936C1C03CEAF00DAC14B /* YANYandexMoneyServer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YANYandexMoneyServer.m; sourceTree = "<group>"; };
 		CEA474021BFCE22B0073960E /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 		CEA474031BFCE22B0073960E /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		CEA474041BFCE22B0073960E /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
@@ -405,9 +403,7 @@
 		CE34B4D61C07891F00FABC44 /* Internet */ = {
 			isa = PBXGroup;
 			children = (
-				CE34B4D81C079C5C00FABC44 /* YANServerProtocol.h */,
-				CE97936B1C03CEAF00DAC14B /* YANYandexMoneyServer.h */,
-				CE97936C1C03CEAF00DAC14B /* YANYandexMoneyServer.m */,
+				855844F11C1F4BDB000A581C /* YandexMoneyServer.swift */,
 			);
 			path = Internet;
 			sourceTree = "<group>";
@@ -1042,7 +1038,6 @@
 				CEC381F21BE80B0200700DAF /* YMAChangeAvatarRequest.m in Sources */,
 				CEF4BFDF1C106D0100DCA458 /* SwiftSpinner.swift in Sources */,
 				CEC381FB1BE80B0200700DAF /* YMABaseRequest.m in Sources */,
-				CE97936D1C03CEAF00DAC14B /* YANYandexMoneyServer.m in Sources */,
 				CEC381E91BE80B0200700DAF /* YMAMoneySourceModel.m in Sources */,
 				CEC381FD1BE80B0200700DAF /* YMAHistoryOperationsResponse.m in Sources */,
 				CEF7C4101C0C59D90067EDD8 /* AFHTTPSessionManager.m in Sources */,
@@ -1084,6 +1079,7 @@
 				CEF7C4161C0C59D90067EDD8 /* AFURLSessionManager.m in Sources */,
 				CEC381ED1BE80B0200700DAF /* YMADigitalGoodsModel.m in Sources */,
 				CEF7C34D1C0A96C90067EDD8 /* YANOperationDetailsView.m in Sources */,
+				855844F21C1F4BDB000A581C /* YandexMoneyServer.swift in Sources */,
 				CEC381E21BE80B0200700DAF /* YMAAccountInfoModel.m in Sources */,
 				CEF7C4151C0C59D90067EDD8 /* AFURLResponseSerialization.m in Sources */,
 				CEF7C3431C0A83BE0067EDD8 /* YANOperationDateView.m in Sources */,

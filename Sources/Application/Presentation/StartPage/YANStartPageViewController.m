@@ -8,7 +8,6 @@
 
 
 #import "YANStartPageViewController.h"
-#import "YANYandexMoneyServer.h"
 #import "CustomSpinner.h"
 #import "YMoney-Swift.h"
 

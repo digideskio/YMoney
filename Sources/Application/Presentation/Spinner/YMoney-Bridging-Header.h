@@ -11,5 +11,8 @@
 
 #import "YMAAccountInfoModel.h"
 #import "YMAAPISession.h"
+#import "YMAHistoryOperationModel.h"
+#import "YMAAccountInfoRequest.h"
+#import "YMAHistoryOperationsRequest.h"
 
 #endif /* YMoney_Bridging_Header_h */

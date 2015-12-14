@@ -9,7 +9,6 @@
 #import "YANOperationHistoryViewController.h"
 #import "YANOperationDetailsView.h"
 #import "YANOperationDateView.h"
-#import "YANYandexMoneyServer.h"
 #import "YMAHistoryOperationModel+NSCoding.h"
 #import "YANOperationDetailsView+YMAHistoryOperationModel.h"
 #import "YANHashStorage.h"

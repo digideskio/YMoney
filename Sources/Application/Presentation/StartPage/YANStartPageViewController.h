@@ -12,7 +12,7 @@
 
 @class AuthorizationViewController;
 
-@interface YANStartPageViewController : YANBaseUIViewController <YANYandexServerObserver>
+@interface YANStartPageViewController : YANBaseUIViewController <YandexServerObserver>
 
 
 @end
